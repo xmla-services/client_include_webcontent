@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  infoserver:
+    build:
+      context: .
+      dockerfile: ./Docker/Dockerfile
+    ports:
+      - "8091:3001"
+    environment:
+      - SENSINACT_INFO_ON=false
+      - DAANSE_INFO_ON=true

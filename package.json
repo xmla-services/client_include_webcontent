@@ -1,0 +1,9 @@
+{
+  "name": "dannse_info_server",
+  "version": "1.0.0",
+  "main": "start_server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
